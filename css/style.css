@@ -528,7 +528,7 @@ h6,
 
 
 body {
-    font-family: sans-serif;
+    font-family: 'Jost', sans-serif;
     box-sizing: border-box;
   }
   .floating-button-menu {
@@ -538,10 +538,10 @@ body {
     right: 20px; 
     cursor: pointer;
     background: #eb5d1e;
-    border-radius: 50%;
-    min-width: 80px;
+    border-radius: 10%;
+    min-width: 120px;
     max-width: 0px;
-    min-height: 80px;
+    min-height: 65px;
     max-height: 0px;
     box-shadow: 2px 2px 8px 2px rgba(0,0,0,.6);
     transition: all ease-in-out .3s;
@@ -589,7 +589,7 @@ body {
      .floating-button-menu-label {
         text-align: center;
         line-height: 74px;
-        font-size: 50px;
+        font-size: 30px;
         color: #fff;
         opacity: 1;
         transition: opacity .3s;
